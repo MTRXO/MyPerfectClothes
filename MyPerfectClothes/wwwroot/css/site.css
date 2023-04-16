@@ -36,20 +36,20 @@ ul {
         padding: 2%;
     }
 
-        ul li a {
+ul li a {
             display: block;
             padding: 20px 25px;
             color: #FFF;
             text-decoration: none;
             text-align: center;
             font-size: 30px;
-        }
+}
 
-        ul li ul.dropdown li {
+ul li ul.dropdown li {
             display: block;
-        }
+}
 
-        ul li ul.dropdown {
+ul li ul.dropdown {
             width: 100%;
             background: #614aa3;
             position: absolute;
@@ -57,18 +57,18 @@ ul {
             display: none;
             text-align: center;
             margin-right: 100px;
-        }
+}
 
-        ul li a:hover {
+ul li a:hover {
             background: #74669c;
             text-align: center;
-        }
+}
 
-        ul li:hover ul.dropdown {
+ul li:hover ul.dropdown {
             display: block;
             margin-right: auto;
             border-radius: 10px;
-        }
+}
 
 .menu-bar {
     background-color: aqua;
@@ -121,5 +121,46 @@ ul {
 
 .fot-text {
     text-align: center;
-    position:;
+  
+}
+
+.form1 {
+    margin-left: 700px;
+}
+
+.InputSet {
+    width: 400px;
+    height: 30px;
+}
+
+.but-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+but-1:hover {
+    color: white;
+    border-style: dashed;
+    border-radius: 15px;
+}
+
+but-1:hover {
+    background-color: #EAD6B2;
+}
+
+.form-container {
+    background-color: #614aa3;
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 50%;
 }
