@@ -16,3 +16,110 @@ html {
 body {
   margin-bottom: 60px;
 }
+* {
+    font-family: 'Paprika', sans-serif;
+}
+
+body {
+    background-color: #7770a3;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+    ul li {
+        display: inline-block;
+        position: relative;
+        padding: 2%;
+    }
+
+        ul li a {
+            display: block;
+            padding: 20px 25px;
+            color: #FFF;
+            text-decoration: none;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li ul.dropdown {
+            width: 100%;
+            background: #614aa3;
+            position: absolute;
+            z-index: 999;
+            display: none;
+            text-align: center;
+            margin-right: 100px;
+        }
+
+        ul li a:hover {
+            background: #74669c;
+            text-align: center;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+
+.menu-bar {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    background: #614aa3;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.head1 {
+    text-align: center;
+    font-size: 100px;
+    width: auto;
+    height: auto;
+    background-color: #614aa3;
+    border-radius: 12px;
+}
+
+.ofert {
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    border-style: groove;
+}
+
+    .ofert:hover {
+        border-radius: 40px;
+        border-style: dashed;
+    }
+
+.middle {
+    text-align: center;
+    padding: 1%;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+.footer {
+    width: auto;
+    height: 150px;
+    background-color: #614aa3;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.fot-text {
+    text-align: center;
+    position:;
+}
