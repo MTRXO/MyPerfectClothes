@@ -97,10 +97,10 @@ ul li:hover ul.dropdown {
     border-style: groove;
 }
 
-    .ofert:hover {
+.ofert:hover {
         border-radius: 40px;
         border-style: dashed;
-    }
+}
 
 .middle {
     text-align: center;
@@ -122,10 +122,14 @@ ul li:hover ul.dropdown {
 .fot-text {
     text-align: center;
   
+  
 }
 
 .form1 {
     margin-left: 700px;
+    position:relative;
+    top:300px;
+   
 }
 
 .InputSet {
@@ -163,4 +167,14 @@ but-1:hover {
     align-items: center;
     text-align: center;
     top: 50%;
+}
+.footer12 {
+    width: auto;
+    height: 150px;
+    background-color: #614aa3;
+    border-radius: 20px;
+    font-size: medium;
+    margin-top: 50%;
+    text-align: center;
+    position: relative;
 }
