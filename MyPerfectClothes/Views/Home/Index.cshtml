@@ -2,3 +2,54 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="~/css/site.css">
+    
+
+
+    <title>Document</title>
+</head>
+@for (int i = 0; i < 8; i++)
+{
+    <br/>
+}
+<body>
+    <h1 class="head1">TOP SELLERS</h1>
+
+@for (var i = 0; i < 2; i++)
+{
+    <div class="middle">
+
+        <button class="ofert" type="button">
+           <img src="~/pictures/shoe1.png" />
+        </button>
+
+        <button class="ofert" type="button">
+               <img src="~/pictures/shoe1.png" />
+        </button>
+
+        <button class="ofert" type="button">
+               <img src="~/pictures/shoe1.png" />
+        </button>
+        
+    </div>  
+}
+
+    <footer class="footer">
+        <div class="fot-text">
+            <h2><span class="material-symbols-outlined ">Public</span>World delivery</h2>
+
+            <h2><span class="material-symbols-outlined ">Eco</span>Eco friendly</h2>
+
+            <h2><span class="material-symbols-outlined ">Lock</span>High-level security</h2>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
