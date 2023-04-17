@@ -178,3 +178,64 @@ but-1:hover {
     text-align: center;
     position: relative;
 }
+
+
+height: auto;
+width: 1200px;
+border-radius: 30px;
+background-color: #513b8d;
+}
+
+.ToCart-but {
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    margin-left: px;
+}
+
+.ToCart-but {
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: yellow;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.select1 {
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: yellow;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 13%;
+    margin-left: 20%;
+}
+
+.select2 {
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: yellow;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.product-heder {
+    position: relative;
+    margin-left: 77%;
+    font-size: xx-large;
+}
+
+.Price {
+    position: relative;
+    margin-left: 77%;
+    font-size: medium;
+}
+
+.BetterPosition {
+    position: relative;
+    margin-top: 50%;
+}
