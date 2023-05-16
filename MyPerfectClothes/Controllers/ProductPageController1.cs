@@ -2,7 +2,7 @@
 
 namespace MyPerfectClothes.Controllers
 {
-    public class ProductPageController : Controller
+    public class ProductPageController1 : Controller
     {
         public IActionResult Index()
         {
