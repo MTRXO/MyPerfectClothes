@@ -242,3 +242,21 @@ but-1:hover {
     border-radius: 30px;
     background-color: #513b8d;
 }
+.MainText {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Discr {
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+}
+
+.TextContainer {
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: #614aa3;
+    border-radius: 500px;
+}
