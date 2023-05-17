@@ -1,8 +1,4 @@
 ﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
-
 @{
     ViewData["Title"] = "ProductPage";
 }
@@ -28,14 +24,10 @@
 <body>
 
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+@for (int i = 0; i < 8; i++)
+    {
+        <br />
+    }
 
 
     <div class="product-container">
@@ -43,7 +35,7 @@
 
         <h1 class="product-heder">Shoes</h1>
         <p class="Price">Price:50$</p>
-        <img src="Shoe1.png">
+        <img src="~/pictures/shoe1.png" />
 
 
         <button class="ToCart-but">
@@ -56,24 +48,14 @@
                 Size
             </option>
 
-            <option>
-                39
-            </option>
-            <option>
-                40
-            </option>
-            <option>
-                41
-            </option>
-            <option>
-                42
-            </option>
-            <option>
-                43
-            </option>
-            <option>
-                44
-            </option>
+            @for (int i = 39; i <= 44; i++)
+            {
+                <option>
+                    @i
+                </option>
+                
+            }
+
         </select>
 
         <select class="select2" aria-placeholder="">
@@ -99,11 +81,10 @@
 
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-
+  @for (int i = 0; i < 4; i++)
+    {
+        <br />
+    }
     <hr>
 
     <footer class="footer">

@@ -235,3 +235,10 @@ but-1:hover {
     position: relative;
     margin-top: 50%;
 }
+
+.product-container {
+    height: auto;
+    width: 1200px;
+    border-radius: 30px;
+    background-color: #513b8d;
+}
