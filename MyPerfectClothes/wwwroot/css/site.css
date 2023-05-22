@@ -260,3 +260,40 @@ but-1:hover {
     background-color: #614aa3;
     border-radius: 500px;
 }
+.container {
+    width: 100%;
+    height: 100px;
+    background-color: #614aa3;
+    border-radius: 20px;
+    text-align: center;
+    position: static;
+}
+
+.container2 {
+    background-color: #614aa3;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    margin: 200px;
+}
+
+.but-1 {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 800px;
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.info {
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-400%);
+}
