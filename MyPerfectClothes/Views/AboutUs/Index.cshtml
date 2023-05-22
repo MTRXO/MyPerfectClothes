@@ -1,27 +1,35 @@
-﻿
+﻿@{
+    ViewData["Title"] = "AboutUs";
+}
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+ <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="~/css/site.css" />">
+    <link rel="stylesheet" href="~/css/site.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+ </head>
 
-<body>
-
-</body>
-
-</html>
+  
 
 
-<h1 class="MainText">About us</h1>
-<div class="TextContainer">
+
+
+
+  <body> 
+
+
+
+ <h1 class="MainText">About us</h1>
+
+ <br />
+
+  <div class="TextContainer">
     <div class="Discr">
         <p>We are a small industry who's selling a few kinds of clothes</p>
         <p>Data which you gave us is in 100% safe</p>
@@ -30,7 +38,16 @@
 
     </div>
 
-</div>
+ 
+
+  </div>
+
+  @for (int i = 0; i < 4; i++)
+   {
+     <br /> 
+   }
+
+
 <div class="TextContainer">
     <div class="Discr">
         <p>This site is made to my own portfolio</p>
@@ -44,7 +61,10 @@
 
 
 
-
+    @for (int i = 0; i < 4; i++)
+    {
+         <br /> 
+    }
 
 
 
@@ -61,11 +81,11 @@
     </div>
 
 
-</footer>
+ </footer>
 
 
 
 
-</body>
+ </body>
 
 </html>
