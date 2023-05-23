@@ -1,6 +1,6 @@
 ﻿namespace MyPerfectClothes.Models
 {
-    public class Class
+    public class OrderProperties
     {
         public string  ClothesType { get; set; }
         public double Price { get; set; }
