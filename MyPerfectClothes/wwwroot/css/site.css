@@ -277,14 +277,14 @@ but-1:hover {
     margin: 200px;
 }
 
-.but-1 {
+.ButtonCart {
     width: 100px;
     height: 50px;
     border-radius: 12px;
     text-align: center;
     margin-left: 800px;
     position: absolute;
-    top: 550px;
+    top: 1100px;
     left: 600px;
     cursor: pointer;
     background-color: yellow;

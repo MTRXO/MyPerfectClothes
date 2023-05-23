@@ -14,10 +14,20 @@
 </head>
 
 <body>
+@for (int i = 0; i < 8; i++)
+    {
+        <br />
+    }
 
     <div class="container">
         <h1 class="CartHead">Your cart</h1>
     </div>
+    @for (int i = 0; i < 4; i++)
+    {
+        <br />
+    }
+
+    <hr />  
 
     @for (int i = 0; i < 4; i++)
     {
@@ -25,16 +35,29 @@
     }
 
     <div class="container2">
+        
+        
+        <img src="~/Pictures/Cart1.png" />
 
-		<img src="e:\c# scripts\myperfectclothes\myperfectclothes\wwwroot\pictures\cart1.png" />
-        <br>
         <div class="info">
             <h3>Name:</h3>
             <h3>Price:</h3>
         </div>
 
+        <button class="ButtonCart" type="submit">Go to order</button>
 
-        <button class="but-1" type="submit">Go to order</button>
+
+
+
+
+
+
+
+
+
+
+        
+
 
 
     </div>
