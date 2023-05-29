@@ -11,7 +11,7 @@ namespace MyPerfectClothes.Data
 
         }
 
-
-        public DbSet<OrderProperties> Categories { get; set; }
+        
+        public DbSet<OrderProperties> OrderProp  { get; set; }
     }
 }
