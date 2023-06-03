@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<OrderProperties>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,23 +39,28 @@
                     </th>
 
                 </tr>
-                <tr>
-                    <td>
-                        shirt
 
+                
+             @foreach (var item in Model)
+             {
+                        <tr>
+                        <td>
+                            
+                            @item.ClothesType
 
-                    </td>
-                    <td>
-                        12$
-                    </td>
-                    <td>
-                        S
-                    </td>
-                    <td>
-                        Red
-                    </td>
+                        </td>
+                        <td>
+                            @item.Price
+                        </td>
+                        <td>
+                            @item.Size
+                        </td>
+                        <td>
+                           @item.Color
+                        </td>
 
-                </tr>
+                    </tr>
+             }
 
 
 

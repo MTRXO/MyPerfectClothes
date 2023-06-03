@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyPerfectClothes.Data;
+using MyPerfectClothes.Models;
 
 namespace MyPerfectClothes.Controllers
 {
@@ -13,8 +14,8 @@ namespace MyPerfectClothes.Controllers
 
         public IActionResult Index()
         {
-            var objCategoryList = _db.OrderProp.ToList();
-            return View();
+            IEnumerable<OrderProperties> objCategoryList = _db.OrderProp;
+            return View(objCategoryList);
         }
 
     }
