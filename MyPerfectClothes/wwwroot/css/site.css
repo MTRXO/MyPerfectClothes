@@ -297,3 +297,18 @@ but-1:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-400%);
 }
+.DataTable {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: xx-large;
+}
+
+th,
+td {
+    border: 3px solid black;
+}
+
+.TabelePosition {
+    text-align: center;
+}
