@@ -304,11 +304,13 @@ but-1:hover {
     font-size: xx-large;
 }
 
-th,
-td {
+th,td {
     border: 3px solid black;
 }
 
 .TabelePosition {
     text-align: center;
+    position: relative;
+    margin-left:40%;
+
 }
