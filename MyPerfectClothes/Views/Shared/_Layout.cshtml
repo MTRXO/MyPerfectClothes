@@ -26,14 +26,23 @@
                     <li><a asp-controller="ProductPageController1">Shoes</a></li>
                     <li><a href="#">Pants</a></li>
                     <li><a href="#">Socks</a></li>
+                    
+
 
 
                 </ul>
             </li>
 
             <li><a asp-action="" asp-controller="CartPage"><span class="material-symbols-outlined ">Sell</span>Cart</a></li>
-            <li><a asp-action="" asp-controller="AboutUs"><span class="material-symbols-outlined ">Person</span>About us</a></li>
-            <li><a asp-action="" asp-controller="LoginPage"><span class="material-symbols-outlined ">Person</span>Account</a></li>
+            <li><a asp-action="" asp-controller="AboutUs"><span class="material-symbols-outlined ">Person</span>About us</a>
+            </li>
+            <li><a asp-action="" asp-controller="LoginPage"><span class="material-symbols-outlined ">Person</span>Account</a>
+            
+                <ul class="dropdown">
+                    <li><a href="#">All orders</a></li>
+                </ul>
+            
+            </li>
 
 
         </ul>
