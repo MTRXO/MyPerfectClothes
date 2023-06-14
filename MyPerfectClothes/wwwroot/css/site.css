@@ -197,6 +197,8 @@ but-1:hover {
     cursor: pointer;
     margin-top: 10%;
     margin-left: 20%;
+    text-decoration:none;
+    
 }
 
 .select1 {
