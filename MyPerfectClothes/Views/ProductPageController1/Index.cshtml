@@ -46,38 +46,41 @@
 
 
         <select  class="select1" aria-placeholder="">
+
             <option>
                 Size
             </option>
-
-            @for (int i = 39; i <= 44; i++)
+            @foreach (var item in ViewBag.Size)
             {
                 <option>
-                    @i
+                    @item
                 </option>
-                
             }
+   
+
+   
+     
+
+
 
         </select>
-
+        
         <select class="select2" aria-placeholder="">
+
             <option>
                 Color
             </option>
-            <option>
-                white
-            </option>
-            <option>
-                black
-            </option>
-            <option>
-                red
-            </option>
-
+            @foreach (var item in ViewBag.Colors)
+            {
+                <option>
+                    @item
+                </option>
+            }
+            
+     }
+       
 
         </select>
-
-
 
 
 
@@ -88,6 +91,8 @@
         <br />
     }
     <hr>
+
+    <h1>@ViewBag.SizeList</h1>
 
     <footer class="footer">
         <div class="fot-text">
