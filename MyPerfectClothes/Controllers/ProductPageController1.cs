@@ -22,11 +22,7 @@ namespace MyPerfectClothes.Controllers
             }.ToList();
 
             ViewBag.Size = Size;
-
-
             ViewBag.Colors = Colors;
-
-         
 
 
             return View();

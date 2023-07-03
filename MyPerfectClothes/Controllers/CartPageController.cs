@@ -1,24 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Net;
-using MyPerfectClothes.Models.OrderReady;
+using MyPerfectClothes.Models;
 
 namespace MyPerfectClothes.Controllers
 {
     public class CartPageController : Controller
     {
-        CurrentCartState CartRn = new CurrentCartState();
+        OrderProperties OrderValue = new OrderProperties();
      
         public IActionResult Index()
         {
-            CartRn.Name = "Shoes";
-            CartRn.Price = 50;
-            CartRn.IsEmpty = false;
-            ViewBag.NameOfProduct = CartRn.Name;
-            ViewBag.PriceOfProduct = CartRn.Price;
-            ViewBag.IsCartEmpty = CartRn.IsEmpty;
 
-           
+            OrderValue.ClothesType = "Shoes";
+            OrderValue.Price = 12;
+            ViewBag.Cloth = OrderValue.ClothesType;
+            ViewBag.Price = OrderValue.Price;
 
 
             return View();
